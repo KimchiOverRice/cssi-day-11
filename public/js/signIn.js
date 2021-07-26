@@ -9,8 +9,7 @@ signInButton.addEventListener("click", ()=>{
 
         console.log("login success", user)
         window.location = "writeNote.html"
-    } )
-    .catch(error =>{
+    }).catch(error =>{
         console.log("login failed", error)
     })
 
